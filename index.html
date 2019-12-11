@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Projecto</title>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -18,7 +17,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="css/hover.css">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -28,13 +26,14 @@
 <body>
     <!-- barra superior -->
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><img src="img/logo.png" style="max-width:50px; margin-top: -8px;" alt="log"></a>
+        <a class="navbar-brand" href="#"><img src="img/logo.png" style="max-width:50px; margin-top: -8px;"
+                alt="log"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContentLG"
             aria-controls="navbarSupportedContentLG" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContentLG">
-            <ul class="navbar-nav mr-auto">
+        <div class="collapse navbar-collapse " id="navbarSupportedContentLG">
+            <ul class="navbar-nav mr-auto navbarbaranimacion">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">
                         <h5>Home</h5>
@@ -53,7 +52,7 @@
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown active">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLG" role="button"
+                    <a class="nav-link dropdown-toggle hoveranimated" href="#" id="navbarDropdownLG" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Log In
                     </a>
@@ -74,7 +73,7 @@
                                     recuerdame
                                 </label>
                             </div>
-                            <button type="submit" class=" btn draw-border">Login</button>
+                            <button type="submit" class="btn draw-border">Login</button>
                         </form>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item bg-dark text-white" href="#" data-toggle="modal"
@@ -89,16 +88,18 @@
     <div class="container-fluid ">
         <div class="row">
             <div class="col-sm-2   order-2 order-sm-1 sidenav">
-                <ul class="list-group">
-                    <li class="list-group-item">Artistas Destacados:</li>
-                    <li class="list-group-item list-group-item-light">MK - 17</li>
-                    <li class="list-group-item list-group-item-light">Disclosure</li>
-                    <li class="list-group-item list-group-item-light">MNEK </li>
-                    <li class="list-group-item list-group-item-light">Meduza </li>
-                    <li class="list-group-item list-group-item-light">Topi </li>
+                <ul class="list-group bordesartistas">
+                        <li class="list-group-item">
+                            <h5 class="hoveranimated">Artistas Destacados:</h5>
+                        </li>
+                        <li class="list-group-item list-group-item-light"><a href="usuario.html">MK - 17 </a></li>
+                        <li class="list-group-item list-group-item-light"><a href="usuario.html">Disclosure </a></li>
+                        <li class="list-group-item list-group-item-light"><a href="usuario.html">MNEK </a> </li>
+                        <li class="list-group-item list-group-item-light"><a href="usuario.html">Meduza </a> </li>
+                        <li class="list-group-item list-group-item-light"><a href="usuario.html">Topi </a> </li>
                 </ul>
             </div>
-            <div class="col-sm-8    order-1 order-sm-2 text-left">
+            <div class="col-sm-8 order-1 order-sm-2 text-left">
                 <!-- inicio Carusel -->
                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -143,7 +144,7 @@
                 <hr>
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="Buscar">
-                    <div class="input-group-append">
+                    <div class="input-group-append ">
                         <button class="btn btn-dark draw-border" type="button">
                             <i class="fa fa-search"></i>
                         </button>
@@ -151,13 +152,13 @@
                 </div>
                 <div style="background-color: #1b1b1b85 !important;">
                     <hr>
-                    <h2 class="text-center">Bienvenido</h2>
+                    <h2 class=" text-center ">Bienvenido</h2>
                     <hr>
                     <h4 class="text-center">"Escucha millones de canciones sin anuncios, a la carta en la nube"</h4>
                     <hr>
                 </div>
                 <hr>
-                <h3>Canciones Destacadas:</h3>
+                <h3 class="hoveranimated">Canciones Destacadas:</h3>
                 <p>Disfruta de la mejor musica</p>
 
                 <!--fin contenido-->
@@ -167,7 +168,7 @@
                         <div class="card mb-3 text-white bg-dark" style="max-width: 540px;">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
-                                    <img src="img/caratula.png" class="card-img" alt="..." style="max-width: 200px;">
+                                    <img src="img/caratula.png" class="card-img hoveranimated" alt="..." style="max-width: 200px;">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -175,7 +176,7 @@
                                         <p class="card-text">Esto es una descripcion de la cantion</p>
                                         <p class="card-text"><small class="text-muted">Genero: "instrumental"</small>
                                         </p>
-                                        <audio controls preload="metadata"style="width: 100%;">
+                                        <audio controls preload="metadata" style="width: 100%;">
                                             <source src="files/testSound.mp3" type="audio/ogg">
                                         </audio>
                                     </div>
@@ -187,7 +188,7 @@
                         <div class="card mb-3 text-white bg-dark" style="max-width: 540px;">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
-                                    <img src="img/caratula.png" class="card-img" alt="..." style="max-width: 200px;">
+                                    <img src="img/caratula.png" class="card-img hoveranimated" alt="..." style="max-width: 200px;">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -195,7 +196,7 @@
                                         <p class="card-text">Esto es una descripcion de la cantion</p>
                                         <p class="card-text"><small class="text-muted">Genero: "instrumental"</small>
                                         </p>
-                                         <audio controls preload="metadata"style="width: 100%;">
+                                        <audio controls preload="metadata" style="width: 100%;">
                                             <source src="files/testSound4.mp3" type="audio/ogg">
                                         </audio>
                                     </div>
@@ -209,7 +210,7 @@
                         <div class="card mb-3 text-white bg-dark" style="max-width: 540px;">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
-                                    <img src="img/caratula.png" class="card-img" alt="..." style="max-width: 200px;">
+                                    <img src="img/caratula.png" class="card-img hoveranimated" alt="..." style="max-width: 200px;">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -217,7 +218,7 @@
                                         <p class="card-text">Esto es una descripcion de la cantion</p>
                                         <p class="card-text"><small class="text-muted">Genero: "instrumental"</small>
                                         </p>
-                                         <audio controls preload="metadata"style="width: 100%;">
+                                        <audio controls preload="metadata" style="width: 100%;">
                                             <source src="files/testSound3.mp3" type="audio/ogg">
                                         </audio>
                                     </div>
@@ -229,7 +230,7 @@
                         <div class="card mb-3 text-white bg-dark" style="max-width: 540px;">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
-                                    <img src="img/caratula.png" class="card-img" alt="..." style="max-width: 200px;">
+                                    <img src="img/caratula.png" class="card-img hoveranimated" alt="..." style="max-width: 200px;">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -237,12 +238,12 @@
                                         <p class="card-text">Esto es una descripcion de la cantion</p>
                                         <p class="card-text"><small class="text-muted">Genero: "instrumental"</small>
                                         </p>
-                                        
-                                            <audio controls preload="metadata"style="width: 100%;">
-                                                <source src="files/testSound2.mp3" type="audio/ogg">
-                                            </audio>
-                                        
-                                        
+
+                                        <audio controls preload="metadata" style="width: 100%;">
+                                            <source src="files/testSound2.mp3" type="audio/ogg">
+                                        </audio>
+
+
                                     </div>
                                 </div>
                             </div>

@@ -10,7 +10,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="css/hover.css">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -20,12 +19,12 @@
 <body id="scroll_bar">
     <!-- barra superior -->
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><img src="img/logo.png" style="max-width:50px; margin-top: -8px;"></a>
+        <a class="navbar-brand" href="#"><img src="img/logo.png" style="max-width:50PX; margin-top: -8px;" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContentLG" aria-controls="navbarSupportedContentLG" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContentLG">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-auto navbarbaranimacion">
                 <li class="nav-item ">
                     <a class="nav-link" href="index.html">
                         <h5>Home</h5>
@@ -50,11 +49,11 @@
                     <div class="dropdown-menu dropdown-menu-right bg-dark text-white" aria-labelledby="navbarDropdownLG">
                         <form class="px-4 py-3">
                             <div class="form-group">
-                                <label for="mail">Email </label>
+                                <label>Email </label>
                                 <input type="email" class="form-control" id="mail" placeholder="tuEmail@ejemplo.com">
                             </div>
                             <div class="form-group">
-                                <label for="pass">Contraseña</label>
+                                <label >Contraseña</label>
                                 <input type="password" class="form-control" id="pass" placeholder="Contraseña">
                             </div>
                             <div class="form-check">
@@ -94,13 +93,13 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="md-form mb-0">
-                                            <label for="name" class="">Nombre</label>
+                                            <label  class="">Nombre</label>
                                             <input type="text"  name="Nombre" class="form-control" placeholder="Nombre" required>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="md-form mb-0">
-                                            <label for="name" class="">Apellidos</label>
+                                            <label  class="">Apellidos</label>
                                             <input type="text" name="Apellidos" class="form-control" placeholder="Apellidos" required>
                                         </div>
                                     </div>
@@ -108,13 +107,13 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="md-form mb-0">
-                                            <label for="name" class="">Telefono</label>
+                                            <label  class="">Telefono</label>
                                             <input type="number"  name="telefono" class="form-control" placeholder="(es)+34" required>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="md-form mb-0">
-                                            <label for="email" class="">Correo</label>
+                                            <label  class="">Correo</label>
                                             <input type="text" id="email" name="email" class="form-control" placeholder="TuCorreo@ejemplo.com" required>
                                         </div>
                                     </div>
@@ -122,7 +121,7 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="md-form">
-                                            <label for="message">Direccion</label>
+                                            <label >Direccion</label>
                                             <input type="text"  name="direccion" class="form-control" placeholder="C/'ejemplo', 'Ciudad Ejemplo', 'España',Codigo Postal">
                                         </div>
                                     </div>
@@ -130,7 +129,7 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="md-form">
-                                            <label for="message">Observacion</label>
+                                            <label >Observacion</label>
                                             <textarea  id="message" name="message" rows="2" class="form-control md-textarea" required></textarea>
                                         </div>
                                     </div>
@@ -160,7 +159,7 @@
                 </section>
                 <!--Fin contacto-->
                 <!--logo-->
-                <div class="d-flex justify-content-center"><img src="img/bottom.png" width="315px"></div>
+                <div class="d-flex justify-content-center"><img src="img/bottom.png" width="315" alt="logo"></div>
             </div>
             <div class="col-sm-2  col order-2  sidenav">
                 <!--Sidenav vacio-->
@@ -173,7 +172,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-6">
                     <h6>estech Music</h6>
-                    <img src="img/logo.png" style="max-width:100px;">
+                    <img src="img/logo.png" style="max-width:100PX;" alt="logo">
                 </div>
                 <div class="col-xs-6 col-md-3">
                     <h6>Enlaces</h6>
@@ -213,12 +212,12 @@
 
 
                     <h4 class="modal-title">Formulario de registro</h4>
-                    <img src="img/logo.png" class="pull-right" height="100px" width="100px">
+                    <img src="img/logo.png" class="pull-right" height="100" width="100" alt="logo">
 
                 </div>
                 <div class="modal-body">
                     <!-- FORMULARIO DE REGISTRO!  -->
-                    <form action="">
+                    <form >
 
                         <div class="form-group">
                             <label>Nombre :</label>
@@ -238,7 +237,7 @@
                             <input type="email" class="form-control" name="Email">
                         </div>
                         <div class="form-group">
-                            <label for="pwd">Contraseña :</label>
+                            <label >Contraseña :</label>
                             <input type="password" class="form-control" name="Password">
                         </div>
                         <button class="btn draw-border" type="submit">Enviar</button>
