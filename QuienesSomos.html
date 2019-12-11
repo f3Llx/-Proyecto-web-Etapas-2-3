@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Projecto</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -17,27 +18,27 @@
 
 
 
-<body id="scroll_bar">
+<body>
     <!-- barra superior -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#"><img src="img/logo.png" style="max-width:50px; margin-top: -8px;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContentLG" aria-controls="navbarSupportedContentLG" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContentLG">
+        <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item ">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">
                         <h5>Home</h5>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="contacto.html">
+                    <a class="nav-link" href="contacto.html">
                         <h5>Contacto</h5>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="QuienesSomos.html">
+                    <a class="nav-link active" href="QuienesSomos.html">
                         <h5>Quienes Somos</h5>
                     </a>
                 </li>
@@ -63,7 +64,7 @@
                                     recuerdame
                                 </label>
                             </div>
-                            <button type="submit" class="btn    draw-border">Login</button>
+                            <button type="submit" class=" btn draw-border">Login</button>
                         </form>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item bg-dark text-white" href="#" data-toggle="modal" data-target="#register">No tienes cuenta? Registrate ya!</a>
@@ -72,102 +73,93 @@
             </ul>
         </div>
     </nav>
-    <!--Fin barra superior-->
+    <!--fin barra-->
     <!-- Maquetacion -->
     <div class="container-fluid ">
         <div class="row">
             <div class="col-sm-2   order-2 order-sm-1 sidenav">
-            </div>
-            <div class="col-sm-8    order-1 order-sm-2 text-left">
-                <!--inicio contacto-->
-                <section class="mb-4">
 
-                    <div class="jumbotron bg-dark " style="background-color: #1b1b1bcc !important;">
-                        <h2 class="h1-responsive font-weight-bold text-center my-4">Contacto</h2>
-                        <p class="text-left w-responsive mx-auto mb-5">
-                            ¿Tiene usted alguna pregunta? Por favor no dude en contactarnos directamente. Nuestro equipo se pondrá en contacto con usted en cuestión de horas para ayudarlo.</p>
-                    </div>
-                    <!--inicio formulario-->
-                    <div class="row" style="background-color: #1b1b1b23 !important;">
-                        <div class="col-md-9 mb-md-0 mb-5">
-                            <form id="contact-form" name="contact-form" action="mailto:felix.corujo@escuelaestech.es">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="md-form mb-0">
-                                            <label for="name" class="">Nombre</label>
-                                            <input type="text" id="name" name="Nombre" class="form-control" placeholder="Nombre" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="md-form mb-0">
-                                            <label for="name" class="">Apellidos</label>
-                                            <input type="text" id="name" name="Apellidos" class="form-control" placeholder="Apellidos" required>
-                                        </div>
+            </div>
+            <div class="col-sm-8    order-1 order-sm-2 text-center">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-2">
+                        </div>
+                        <div class="col-md-8" style="background-color: #1b1b1b11 !important;">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="jumbotron bg-dark" style="background-color: #1b1b1bcc !important;">
+                                        <h2>
+                                            Quienes somos
+                                        </h2>
+                                        <p>
+                                            "Nuestra misión es liberar el potencial de la creatividad humana: dar a un millón de artistas creativos la oportunidad de vivir de su arte y a miles de millones de fans la oportunidad de disfrutar e inspirarse en él."
+                                        </p>
+                                        <hr>
+
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="md-form mb-0">
-                                            <label for="name" class="">Telefono</label>
-                                            <input type="number" id="name" name="telefono" class="form-control" placeholder="(es)+34" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="md-form mb-0">
-                                            <label for="email" class="">Correo</label>
-                                            <input type="text" id="email" name="email" class="form-control" placeholder="TuCorreo@ejemplo.com" required>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="md-form">
-                                            <label for="message">Direccion</label>
-                                            <input type="text" id="name" name="direccion" class="form-control" placeholder="C/'ejemplo', 'Ciudad Ejemplo', 'España',Codigo Postal">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="md-form">
-                                            <label for="message">Observacion</label>
-                                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" required></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="text-center text-md-left">
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <h2>
+                                        20
+                                    </h2>
+                                    <p>
+                                        Desarrolladores
+
+                                    </p>
+                                    <i class='fa fa-user' style='font-size:36px'> </i>
                                     <hr>
-                                    <button type="submit" class="btn draw-border  ">Enviar</button>
                                 </div>
-                            </form>
-                            <!--fin formulario contacto-->
-                            <div class="status"></div>
+                                <div class="col-md-4">
+                                    <h2>
+                                        300k
+                                    </h2>
+                                    <p>
+                                        Artistas
+                                    </p>
+                                    <i class='fa fa-music' style='font-size:36px'></i>
+                                    <hr>
+                                </div>
+                                <div class="col-md-4">
+                                    <h2>
+                                        2
+                                    </h2>
+                                    <p>
+                                        Oficinas
+                                    </p>
+                                    <i class='fa fa-laptop' style='font-size:36px'>
+                                        </i>
+
+
+                                    <hr>
+                                </div>
+                            </div>
+                            <h2>
+                                75%
+                            </h2>
+                            <P>Progreso App Moviles</P>
+                            <div class="progress">
+                                <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <hr>
+                            <!--logo-->
+                            <div class="d-flex justify-content-center"><img src="img/bottom.png" width="315px"></div>
+                            <!--fin logo-->
                         </div>
-                        <div class="col-md-3 text-center">
-                            <ul class="list-unstyled mb-0">
-                                <li><i class="fa fa-map fa-2x"></i>
-                                    <p>Linares, Jaen 23700, España</p>
-                                </li>
-                                <li><i class="fa fa-phone mt-4 fa-2x"></i>
-                                    <p>+34 6989484883</p>
-                                </li>
-                                <li><i class="fa fa-envelope mt-4 fa-2x"></i>
-                                    <p>contacto @EstechMusic.com</p>
-                                </li>
-                            </ul>
+                        <div class="col-md-2">
                         </div>
                     </div>
-                </section>
-                <!--Fin contacto-->
-                <!--logo-->
-                <div class="d-flex justify-content-center"><img src="img/bottom.png" width="315px"></div>
+                </div>
             </div>
             <div class="col-sm-2  col order-2  sidenav">
-                <!--Sidenav vacio-->
+                <!--sidenav vacio-->
             </div>
         </div>
     </div>
-    <!-- footer -->
+
+    <!--footer -->
     <footer>
         <div class="container">
             <div class="row">
@@ -253,5 +245,6 @@
     </div>
     <!-- Fin modal  -->
 </body>
+
 
 </html>
